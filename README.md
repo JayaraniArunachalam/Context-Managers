@@ -6,7 +6,7 @@ Today, I explored one of Python’s most elegant and powerful tools — the Cont
 We usually use context managers while handling files:
 
 with open("file.txt", "r") as f:
-
+    
     data = f.read()
     
 But today, I took it a step further and built my own custom context manager using:
